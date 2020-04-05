@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon">
+	<test name="challange">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="customerName" value="customerName"></parameter>
+		<parameter name="customerEmail" value="example@example.com"></parameter>
+		<parameter name="customerPassword" value="password"></parameter>
+		<classes>
+			<class name="testclasses.AmazonTest"></class>
+		</classes>
+	</test>
+</suite>
